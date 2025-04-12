@@ -59,7 +59,7 @@ const HomeScreen: React.FC = () => {
                         <div className="content-col">
                             <h3 className="content-heading">Customize Your Bot</h3>
                             <p className="content-text">Personalize the appearance and behavior to match your brand and meet your specific needs.</p>
-                            <button className="content-button">Start cust</button>
+                            <button className="content-button">Start customizing</button>
                         </div>
                         <div className="content-col">
                             <img src="/api/placeholder/400/320" alt="Customization options" className="tab-image" />
@@ -265,7 +265,7 @@ const HomeScreen: React.FC = () => {
                         <div className="row align-items-center">
                             <div className="col-sm d-flex flex-column heading-one-content">
                                 <h1 className="head-one">
-                                    Build, Deploy & Scale Smart Chatbots with Ease
+                                    Build, Deploy & Scale Smart Chatbots with ease
                                 </h1>
                                 <h6 className="para-desc">
                                     Empower your business with our no-code chatbot builder. Launch intelligent, AI-driven bots in minutes – fully customizable, multilingual, and integrated with the latest LLMs. <br /><br />
