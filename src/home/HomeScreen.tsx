@@ -59,7 +59,7 @@ const HomeScreen: React.FC = () => {
                         <div className="content-col">
                             <h3 className="content-heading">Customize Your Bot</h3>
                             <p className="content-text">Personalize the appearance and behavior to match your brand and meet your specific needs.</p>
-                            <button className="content-button">Start customizing</button>
+                            <button className="content-button">Start cust</button>
                         </div>
                         <div className="content-col">
                             <img src="/api/placeholder/400/320" alt="Customization options" className="tab-image" />
