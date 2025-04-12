@@ -1,0 +1,63 @@
+.footer {
+  font-size: 14px;
+  padding-bottom: 5rem;
+}
+
+.footer h6,
+.footer p,
+.footer a,
+.footer input,
+.footer button {
+  font-size: 15px !important;
+}
+
+.form-control-3{
+  background-color: #F6F7FB;
+  border-radius: 12px;
+  /* Sharp borders */
+  border: none;
+  padding: 16px 16px;
+  
+  font-size: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000000d9; /* Bootstrap's dark color */
+
+}
+
+
+.subscribe_but-2{
+  border: none;
+  border-radius: 12px !important;
+  background-color: #675AFF;
+  color: white;
+
+
+}
+
+.footer_form{
+  border: none;
+  border-radius: 12px!important;
+  color: #212529;
+  font-size: 15px;
+  padding: 1rem;  
+  padding-top: 0.6rem!important;
+  padding-bottom: 0.6rem!important;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-subscribe {
+  margin-top: auto;  /* Pushes content to the bottom of the flex container */
+}
+
+.footer_logo {
+  width: 110px;  /* Adjust the size as needed */
+  height: auto;
+}

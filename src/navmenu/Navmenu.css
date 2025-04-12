@@ -1,0 +1,57 @@
+.try-free {
+    border: none;
+    border-radius: 12px !important;
+    font-size: 15px;
+    background-color: #675AFF;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1rem;
+}
+
+.language-button {
+    border: none;
+    border-radius: 12px !important;
+
+    color: black;
+    padding-left: 1rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 1rem;
+}
+
+
+.navbar {
+    position: fixed; /* Keep it fixed on top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect to the content behind the navbar */
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: add shadow to navbar */
+  }
+  
+.nav-link {
+    font-size: 15px;
+    padding-left: 0.9rem !important;
+    padding-right: 0.9rem !important;
+}
+
+.nav-link.active {
+    background-color: #b4b8cc24 !important;
+    border-radius: 9999px !important;
+}
+
+.try-free:hover {
+    background-color: #675AFF;
+    color: white;
+
+}
+
+.language-button:hover {
+    background-color: #e9ecef;
+    color: black;
+}

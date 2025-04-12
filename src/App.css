@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .fab-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4CAF50; /* Green or your theme color */
+    color: white;
+    border: none;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .fab-button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.05);
+  }
+  
+
+  .custom-fab-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+    display: none; /* Initially hide the fab */
+    opacity: 0; /* Make it fully transparent initially */
+    transform: translateY(50px); /* Initially move it more down */
+    transition: opacity 0.6s ease, transform 0.6s ease; /* Slow down the animation (0.6s) */
+  }
+  
+  .custom-fab-container.visible {
+    display: block; /* Show when scrolled */
+    opacity: 1; /* Make it fully opaque */
+    transform: translateY(0); /* Move it to its original position */
+  }
+  
+  .custom-fab-container.hidden {
+    display: none; /* Hide when at the top */
+  }
+  
+  .custom-fab-button {
+    width: 250px;
+    height: 54px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .custom-fab-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .fab-img {
+    width: 250px;
+    height: 54px;
+    object-fit: contain;
+  }
+  
